@@ -1,3 +1,5 @@
+# SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation
+
 Verification and validation of autonomous driving (AD)
 systems and components is of increasing importance, as such
 technology increases in real-world prevalence.
