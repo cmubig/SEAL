@@ -1,0 +1,167 @@
+Processing base model
+WOMD-Normal,
+Real Scenes
+                                               adv_objective hybrid_adv_mode        arrive adjusted_crash  adv_meta_wd         crash    out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                                 full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Benign Skill Prior + Heuristic Obj                   overlap    skill-benign  45.0% (0.0%)   29.8% (7.1%)  0.05 (0.00)  18.0% (4.0%)   39.5% (1.0%)    00.0% (0.0%)    06.0% (0.9%)     69.3% (0.2%)  0.00 (0.00)  0.39 (0.01)  0.00 (0.00)  0.20 (0.00)  0.18 (0.04)    0.39 (0.01)  0.55 (0.00)        0.00 (0.00)        0.02 (0.01)  1.33 (0.23)  0.61 (0.04)  3.12 (0.02)  0.03 (0.02)  1.03 (0.12)  0.95 (0.09)  0.15 (0.00)  0.15 (0.00)                        model_cat_reskill_skill_idm_all_initial*_normal_n1
+Benign Skill Prior + Learned Obj                     learned    skill-benign  49.0% (0.0%)   31.4% (2.7%)  0.05 (0.00)  19.5% (3.0%)   31.5% (3.0%)    00.0% (0.0%)    05.8% (0.0%)     72.0% (0.9%)  0.00 (0.00)  0.41 (0.01)  0.00 (0.00)  0.21 (0.01)  0.19 (0.03)    0.31 (0.03)  0.51 (0.00)        0.00 (0.00)        0.03 (0.00)  1.19 (0.04)  0.53 (0.15)  3.10 (0.03)  0.02 (0.00)  1.08 (0.09)  0.86 (0.11)  0.16 (0.01)  0.16 (0.01)            model_cat_reskill_skill_idm_all_learned_obj_initial*_normal_n1
+CAT: TrajPred Adv + Heuristic Obj                    overlap               -  50.0% (2.0%)   22.5% (3.6%)  0.05 (0.00)  15.0% (6.0%)  36.0% (10.0%)    00.0% (0.0%)    05.3% (1.0%)     69.1% (1.5%)  0.00 (0.00)  0.36 (0.04)  0.00 (0.00)  0.18 (0.02)  0.15 (0.06)    0.36 (0.10)  0.50 (0.02)        0.00 (0.00)        0.03 (0.01)  1.13 (0.03)  0.50 (0.12)  3.10 (0.03)  0.03 (0.00)  0.90 (0.07)  1.12 (0.26)  0.15 (0.01)  0.15 (0.01)                               model_cat_reskill_shared_initial*_normal_n1
+TrajPred Adv + Learned Obj                           learned               -  51.5% (1.0%)   23.3% (1.2%)  0.05 (0.00)  15.5% (1.0%)   33.5% (1.0%)    00.0% (0.0%)    05.5% (1.5%)     71.0% (4.3%)  0.00 (0.00)  0.38 (0.02)  0.00 (0.00)  0.19 (0.01)  0.15 (0.01)    0.33 (0.01)  0.48 (0.01)        0.00 (0.00)        0.03 (0.02)  1.59 (0.44)  0.54 (0.00)  3.11 (0.01)  0.03 (0.00)  0.95 (0.24)  0.87 (0.20)  0.15 (0.02)  0.15 (0.02)                          model_cat_reskill_learned_obj_initial*_normal_n1
+Adv Skill Prior + Heuristic Obj                      overlap  skill-advprior  52.5% (3.0%)   25.9% (4.1%)  0.06 (0.00)  18.0% (4.0%)   32.0% (2.0%)    00.0% (0.0%)    05.4% (0.7%)     74.5% (1.9%)  0.00 (0.00)  0.40 (0.00)  0.00 (0.00)  0.20 (0.00)  0.18 (0.04)    0.32 (0.02)  0.47 (0.03)        0.00 (0.00)        0.03 (0.00)  1.49 (0.39)  0.51 (0.02)  3.11 (0.03)  0.05 (0.01)  1.18 (0.28)  0.74 (0.06)  0.15 (0.01)  0.15 (0.01)              model_cat_reskill_skill_idm_all_adv_prior_initial*_normal_n1
+$\mathbf{SEAL}$: Adv Skill Prior + Learned Obj       learned  skill-advprior  58.5% (1.0%)   21.5% (1.8%)  0.05 (0.00)  15.0% (0.0%)   26.5% (1.0%)    00.0% (0.0%)    04.9% (1.1%)     76.9% (1.5%)  0.00 (0.00)  0.38 (0.00)  0.00 (0.00)  0.19 (0.00)  0.15 (0.00)    0.26 (0.01)  0.42 (0.02)        0.00 (0.00)        0.03 (0.01)  1.71 (0.16)  0.56 (0.11)  3.11 (0.03)  0.02 (0.01)  1.18 (0.02)  0.61 (0.12)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_normal_n1
+
+WOMD-Normal,
+CAT-Gen
+                                               adv_objective hybrid_adv_mode        arrive adjusted_crash  adv_meta_wd          crash   out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                              full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+Benign Skill Prior + Learned Obj                     learned    skill-benign  30.0% (4.0%)  54.3% (10.2%)  0.16 (0.02)  36.0% (10.0%)  30.0% (2.0%)    06.8% (2.2%)    16.8% (2.1%)     61.3% (0.5%)  0.89 (0.01)  0.57 (0.06)  0.90 (0.02)  0.74 (0.04)  0.36 (0.10)    0.29 (0.03)  0.70 (0.04)        0.06 (0.02)        0.08 (0.02)  1.13 (0.08)  0.71 (0.27)  3.11 (0.03)  0.32 (0.05)  1.52 (0.16)  1.00 (0.05)  0.16 (0.00)  0.16 (0.00)            model_cat_reskill_skill_idm_all_learned_obj_initial*_adv_n5
+CAT: TrajPred Adv + Heuristic Obj                    overlap               -  31.5% (3.0%)   46.7% (6.6%)  0.15 (0.01)   31.5% (3.0%)  40.0% (0.0%)    06.3% (1.9%)    14.9% (2.5%)     61.9% (3.1%)  0.87 (0.00)  0.53 (0.01)  0.89 (0.02)  0.71 (0.00)  0.31 (0.03)    0.40 (0.00)  0.68 (0.03)        0.06 (0.02)        0.06 (0.03)  1.04 (0.14)  0.56 (0.08)  3.05 (0.01)  0.32 (0.04)  1.22 (0.03)  0.86 (0.17)  0.15 (0.01)  0.15 (0.01)                               model_cat_reskill_shared_initial*_adv_n5
+Benign Skill Prior + Heuristic Obj                   overlap    skill-benign  32.5% (3.0%)   55.5% (0.8%)  0.15 (0.01)   40.5% (5.0%)  27.0% (8.0%)    06.5% (1.2%)    15.4% (0.1%)     62.8% (3.7%)  0.85 (0.00)  0.59 (0.04)  0.90 (0.00)  0.74 (0.04)  0.40 (0.05)    0.27 (0.08)  0.67 (0.03)        0.06 (0.02)        0.07 (0.00)  1.29 (0.22)  0.96 (0.00)  3.11 (0.01)  0.30 (0.04)  1.81 (0.06)  0.87 (0.01)  0.15 (0.00)  0.15 (0.00)                        model_cat_reskill_skill_idm_all_initial*_adv_n5
+TrajPred Adv + Learned Obj                           learned               -  34.5% (3.0%)   47.6% (3.4%)  0.15 (0.03)   31.5% (7.0%)  35.0% (2.0%)    09.8% (3.6%)    17.0% (7.6%)     64.3% (3.0%)  0.90 (0.00)  0.54 (0.06)  0.90 (0.02)  0.72 (0.03)  0.31 (0.07)    0.35 (0.02)  0.65 (0.03)        0.09 (0.04)        0.08 (0.07)  1.41 (0.33)  0.59 (0.10)  3.09 (0.00)  0.29 (0.08)  1.31 (0.04)  0.72 (0.00)  0.16 (0.02)  0.15 (0.02)                          model_cat_reskill_learned_obj_initial*_adv_n5
+Adv Skill Prior + Heuristic Obj                      overlap  skill-advprior  35.5% (3.0%)   50.3% (4.9%)  0.15 (0.03)   36.0% (4.0%)  28.5% (1.0%)    07.7% (0.4%)    15.1% (1.7%)     66.8% (0.8%)  0.82 (0.01)  0.57 (0.01)  0.91 (0.01)  0.73 (0.02)  0.36 (0.04)    0.28 (0.00)  0.64 (0.03)        0.07 (0.00)        0.06 (0.01)  1.37 (0.39)  0.67 (0.41)  3.09 (0.03)  0.30 (0.06)  1.50 (0.05)  0.79 (0.55)  0.15 (0.00)  0.15 (0.00)              model_cat_reskill_skill_idm_all_adv_prior_initial*_adv_n5
+$\mathbf{SEAL}$: Adv Skill Prior + Learned Obj       learned  skill-advprior  42.0% (2.0%)   45.8% (3.3%)  0.15 (0.01)   32.0% (4.0%)  24.0% (2.0%)    08.2% (1.2%)    14.9% (1.7%)     69.5% (0.1%)  0.87 (0.00)  0.55 (0.03)  0.89 (0.05)  0.72 (0.04)  0.32 (0.04)    0.24 (0.02)  0.58 (0.02)        0.07 (0.01)        0.06 (0.01)  1.54 (0.07)  0.29 (0.03)  3.08 (0.02)  0.30 (0.05)  1.31 (0.25)  0.74 (0.05)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_adv_n5
+
+WOMD-Normal,
+GOOSE-Gen
+                                               adv_objective hybrid_adv_mode        arrive adjusted_crash  adv_meta_wd         crash   out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                                    full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+CAT: TrajPred Adv + Heuristic Obj                    overlap               -  34.5% (3.0%)   42.9% (1.6%)  0.33 (0.01)  27.0% (2.0%)  39.0% (6.0%)    10.0% (0.6%)    53.9% (1.4%)     62.6% (1.1%)  0.00 (0.00)  0.44 (0.01)  0.91 (0.00)  0.67 (0.01)  0.27 (0.02)    0.39 (0.06)  0.65 (0.03)        0.09 (0.01)        0.45 (0.01)  1.02 (0.04)  2.36 (0.06)  3.12 (0.02)  0.59 (0.01)  1.49 (0.07)  1.99 (0.31)  0.16 (0.00)  0.16 (0.01)                               model_cat_reskill_shared_initial*_adv_n5_goose
+Benign Skill Prior + Heuristic Obj                   overlap    skill-benign  37.0% (0.0%)   45.1% (0.6%)  0.34 (0.01)  32.0% (4.0%)  31.0% (4.0%)    12.0% (3.8%)    53.4% (4.5%)     62.8% (2.2%)  0.00 (0.00)  0.48 (0.00)  0.90 (0.01)  0.68 (0.01)  0.32 (0.04)    0.30 (0.05)  0.63 (0.00)        0.11 (0.03)        0.45 (0.04)  1.26 (0.26)  2.16 (0.18)  3.09 (0.04)  0.66 (0.05)  1.33 (0.26)  2.26 (0.06)  0.16 (0.01)  0.15 (0.01)                        model_cat_reskill_skill_idm_all_initial*_adv_n5_goose
+Benign Skill Prior + Learned Obj                     learned    skill-benign  38.0% (2.0%)   44.2% (6.6%)  0.34 (0.01)  28.0% (2.0%)  31.5% (5.0%)    10.0% (0.9%)    54.5% (2.3%)     63.4% (4.2%)  0.00 (0.00)  0.46 (0.02)  0.91 (0.02)  0.69 (0.00)  0.27 (0.01)    0.31 (0.06)  0.62 (0.02)        0.09 (0.01)        0.46 (0.02)  0.99 (0.07)  2.34 (0.28)  3.11 (0.05)  0.64 (0.07)  1.38 (0.07)  2.08 (0.05)  0.16 (0.00)  0.16 (0.00)            model_cat_reskill_skill_idm_all_learned_obj_initial*_adv_n5_goose
+Adv Skill Prior + Heuristic Obj                      overlap  skill-advprior  40.5% (3.0%)   42.5% (3.1%)  0.35 (0.00)  30.5% (5.0%)  26.5% (3.0%)    12.3% (0.0%)    55.6% (0.0%)     64.2% (2.6%)  0.00 (0.00)  0.49 (0.03)  0.91 (0.01)  0.70 (0.02)  0.30 (0.05)    0.26 (0.03)  0.59 (0.03)        0.12 (0.00)        0.47 (0.00)  1.41 (0.06)  2.43 (0.24)  3.09 (0.01)  0.65 (0.04)  1.50 (0.05)  2.02 (0.00)  0.15 (0.00)  0.15 (0.00)              model_cat_reskill_skill_idm_all_adv_prior_initial*_adv_n5_goose
+TrajPred Adv + Learned Obj                           learned               -  40.5% (5.0%)   36.3% (2.9%)  0.33 (0.00)  23.0% (0.0%)  34.5% (1.0%)    13.6% (0.9%)    55.0% (1.7%)     64.8% (4.2%)  0.00 (0.00)  0.43 (0.01)  0.91 (0.03)  0.67 (0.01)  0.23 (0.00)    0.34 (0.01)  0.59 (0.05)        0.13 (0.01)        0.46 (0.01)  1.33 (0.28)  2.40 (0.04)  3.09 (0.02)  0.57 (0.03)  1.33 (0.03)  1.98 (0.18)  0.16 (0.01)  0.15 (0.01)                          model_cat_reskill_learned_obj_initial*_adv_n5_goose
+$\mathbf{SEAL}$: Adv Skill Prior + Learned Obj       learned  skill-advprior  44.0% (4.0%)   39.7% (5.5%)  0.35 (0.00)  27.0% (0.0%)  27.0% (0.0%)    13.0% (3.2%)    59.5% (0.2%)     67.9% (4.8%)  0.00 (0.00)  0.46 (0.01)  0.90 (0.03)  0.68 (0.03)  0.27 (0.00)    0.27 (0.00)  0.56 (0.04)        0.12 (0.03)        0.51 (0.00)  1.60 (0.02)  2.39 (0.05)  3.10 (0.03)  0.63 (0.02)  1.63 (0.42)  1.70 (0.03)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_adv_n5_goose
+
+WOMD-Normal,
+$\mathbf{SEAL}$-Gen
+                                               adv_objective hybrid_adv_mode        arrive adjusted_crash  adv_meta_wd          crash   out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                                                                  full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+Benign Skill Prior + Heuristic Obj                   overlap    skill-benign  29.5% (1.0%)   60.9% (5.0%)  0.12 (0.00)   43.5% (3.0%)  28.5% (1.0%)    04.9% (0.9%)    13.1% (0.8%)     62.7% (0.6%)  1.53 (0.01)  0.60 (0.02)  0.91 (0.00)  0.74 (0.03)  0.43 (0.03)    0.28 (0.00)  0.71 (0.02)        0.04 (0.01)        0.04 (0.01)  1.22 (0.22)  0.54 (0.12)  3.08 (0.02)  0.20 (0.03)  1.28 (0.08)  0.64 (0.07)  0.15 (0.00)  0.15 (0.00)                        model_cat_reskill_skill_idm_all_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+TrajPred Adv + Learned Obj                           learned               -  30.0% (4.0%)   53.5% (5.5%)  0.10 (0.02)   35.5% (1.0%)  35.5% (1.0%)    06.1% (2.0%)    11.7% (0.6%)     62.3% (2.5%)  1.61 (0.00)  0.55 (0.02)  0.89 (0.01)  0.72 (0.01)  0.35 (0.01)    0.35 (0.01)  0.70 (0.04)        0.06 (0.02)        0.03 (0.01)  1.64 (0.18)  0.51 (0.23)  3.08 (0.02)  0.16 (0.07)  1.27 (0.04)  0.71 (0.12)  0.15 (0.02)  0.15 (0.02)                          model_cat_reskill_learned_obj_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+CAT: TrajPred Adv + Heuristic Obj                    overlap               -  31.0% (0.0%)   51.1% (0.5%)  0.10 (0.00)   34.0% (4.0%)  36.0% (2.0%)    05.0% (1.7%)    13.5% (0.7%)     61.3% (1.9%)  1.60 (0.01)  0.54 (0.00)  0.88 (0.02)  0.71 (0.01)  0.34 (0.04)    0.36 (0.02)  0.69 (0.00)        0.04 (0.01)        0.05 (0.00)  1.03 (0.01)  0.56 (0.03)  3.08 (0.04)  0.16 (0.00)  1.16 (0.18)  0.76 (0.49)  0.15 (0.00)  0.15 (0.00)                               model_cat_reskill_shared_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+Benign Skill Prior + Learned Obj                     learned    skill-benign  31.0% (8.0%)   56.7% (9.4%)  0.12 (0.01)   39.5% (3.0%)  30.0% (0.0%)    05.5% (0.2%)    11.7% (3.1%)     63.2% (5.0%)  1.61 (0.02)  0.58 (0.01)  0.88 (0.04)  0.73 (0.03)  0.39 (0.03)    0.30 (0.00)  0.69 (0.08)        0.05 (0.00)        0.03 (0.03)  1.08 (0.08)  0.61 (0.36)  3.10 (0.02)  0.23 (0.07)  1.28 (0.05)  0.94 (0.16)  0.16 (0.01)  0.15 (0.01)            model_cat_reskill_skill_idm_all_learned_obj_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+Adv Skill Prior + Heuristic Obj                      overlap  skill-advprior  32.5% (7.0%)  53.4% (12.7%)  0.12 (0.04)  37.5% (11.0%)  30.0% (4.0%)    04.7% (1.2%)    13.7% (3.7%)     63.3% (0.1%)  1.60 (0.02)  0.55 (0.05)  0.90 (0.01)  0.72 (0.00)  0.37 (0.11)    0.30 (0.04)  0.68 (0.08)        0.04 (0.01)        0.05 (0.04)  1.41 (0.48)  0.65 (0.27)  3.11 (0.02)  0.21 (0.09)  1.08 (0.33)  0.93 (0.13)  0.15 (0.01)  0.15 (0.01)              model_cat_reskill_skill_idm_all_adv_prior_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+$\mathbf{SEAL}$: Adv Skill Prior + Learned Obj       learned  skill-advprior  38.0% (4.0%)   49.4% (1.3%)  0.09 (0.00)   35.5% (1.0%)  25.0% (6.0%)    03.9% (0.3%)    10.7% (1.2%)     67.4% (2.1%)  1.60 (0.03)  0.55 (0.01)  0.89 (0.04)  0.72 (0.02)  0.35 (0.01)    0.25 (0.06)  0.62 (0.04)        0.03 (0.01)        0.02 (0.01)  1.67 (0.07)  0.43 (0.08)  3.10 (0.01)  0.13 (0.02)  1.22 (0.01)  0.75 (0.34)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+
+WOMD-SafeShift-Hard,
+Real Scenes
+                                               adv_objective hybrid_adv_mode        arrive adjusted_crash  adv_meta_wd          crash   out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd   adv_dist_wd       yaw_wd   adv_yaw_wd                                                                           full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+Benign Skill Prior + Learned Obj                     learned    skill-benign  20.0% (2.0%)   69.4% (1.1%)  0.06 (0.00)   44.0% (4.0%)  34.5% (9.0%)    00.0% (0.0%)    03.7% (1.3%)     45.8% (2.2%)  0.00 (0.00)  0.65 (0.02)  0.00 (0.00)  0.32 (0.01)  0.44 (0.04)    0.34 (0.09)  0.80 (0.02)        0.00 (0.00)        0.04 (0.01)  1.80 (0.31)  1.38 (0.20)  2.92 (0.00)  0.04 (0.03)  9.07 (0.02)  13.17 (0.06)  0.16 (0.00)  0.15 (0.00)            model_cat_reskill_skill_idm_all_learned_obj_initial*_normal_n1_hard_rand
+CAT: TrajPred Adv + Heuristic Obj                    overlap               -  24.0% (0.0%)   61.8% (3.6%)  0.06 (0.00)   37.5% (3.0%)  36.5% (5.0%)    00.0% (0.0%)    04.3% (0.1%)     44.2% (2.7%)  0.00 (0.00)  0.60 (0.01)  0.00 (0.00)  0.30 (0.01)  0.37 (0.03)    0.36 (0.05)  0.76 (0.00)        0.00 (0.00)        0.04 (0.00)  1.73 (0.07)  1.24 (0.27)  2.89 (0.04)  0.05 (0.00)  8.99 (0.15)  13.23 (0.00)  0.15 (0.00)  0.14 (0.00)                               model_cat_reskill_shared_initial*_normal_n1_hard_rand
+Benign Skill Prior + Heuristic Obj                   overlap    skill-benign  27.5% (5.0%)   61.6% (5.4%)  0.05 (0.01)   44.0% (2.0%)  27.0% (0.0%)    00.0% (0.0%)    02.8% (0.1%)     49.2% (8.9%)  0.00 (0.00)  0.64 (0.01)  0.00 (0.00)  0.32 (0.00)  0.44 (0.02)    0.27 (0.00)  0.72 (0.05)        0.00 (0.00)        0.06 (0.00)  2.02 (1.33)  1.30 (0.10)  2.83 (0.19)  0.04 (0.00)  9.24 (0.55)  13.33 (0.00)  0.13 (0.03)  0.12 (0.03)                        model_cat_reskill_skill_idm_all_initial*_normal_n1_hard_rand
+Adv Skill Prior + Heuristic Obj                      overlap  skill-advprior  28.0% (0.0%)   56.2% (1.4%)  0.06 (0.01)   36.0% (2.0%)  33.5% (3.0%)    00.0% (0.0%)    04.0% (0.0%)     50.1% (0.3%)  0.00 (0.00)  0.60 (0.02)  0.00 (0.00)  0.30 (0.01)  0.36 (0.02)    0.33 (0.03)  0.72 (0.00)        0.00 (0.00)        0.04 (0.01)  1.16 (0.19)  1.18 (0.23)  2.91 (0.02)  0.05 (0.00)  8.77 (0.44)  13.27 (0.05)  0.13 (0.01)  0.13 (0.01)              model_cat_reskill_skill_idm_all_adv_prior_initial*_normal_n1_hard_rand
+TrajPred Adv + Learned Obj                           learned               -  28.5% (5.0%)  56.6% (11.5%)  0.06 (0.00)  37.5% (11.0%)  34.0% (6.0%)    00.0% (0.0%)    04.0% (0.4%)     47.7% (4.0%)  0.00 (0.00)  0.60 (0.07)  0.00 (0.00)  0.30 (0.04)  0.37 (0.11)    0.34 (0.06)  0.71 (0.05)        0.00 (0.00)        0.04 (0.01)  1.45 (0.24)  1.26 (0.10)  2.91 (0.06)  0.05 (0.00)  8.61 (0.05)  13.01 (0.08)  0.14 (0.00)  0.14 (0.00)                          model_cat_reskill_learned_obj_initial*_normal_n1_hard_rand
+$\mathbf{SEAL}$: Adv Skill Prior + Learned Obj       learned  skill-advprior  38.0% (2.0%)   43.3% (0.4%)  0.06 (0.01)   29.0% (2.0%)  33.0% (4.0%)    00.0% (0.0%)    03.2% (0.4%)     54.8% (2.4%)  0.00 (0.00)  0.55 (0.04)  0.00 (0.00)  0.28 (0.02)  0.29 (0.02)    0.33 (0.04)  0.62 (0.02)        0.00 (0.00)        0.05 (0.01)  1.13 (0.28)  0.93 (0.27)  2.97 (0.01)  0.04 (0.00)  8.23 (0.01)  13.03 (0.29)  0.14 (0.01)  0.13 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_normal_n1_hard_rand
+
+                                                               arrive  crash out_of_road
+model_cat_reskill_skill_idm_all_learned_obj_initial*            0.336  0.334       0.315
+model_cat_reskill_shared_initial*                               0.342   0.29       0.375
+model_cat_reskill_skill_idm_all_initial*                        0.343  0.356       0.306
+model_cat_reskill_learned_obj_initial*                           0.37  0.286       0.345
+model_cat_reskill_skill_idm_all_adv_prior_initial*              0.378  0.316       0.301
+model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*  0.441  0.277       0.271
+
+                                     arrive adv_meta_wd adv_yaw_wd adv_acc_wd adv_out_of_road_wd adv_other_crash_wd
+WOMD-Normal,\nReal Scenes          0.510833    0.053421   0.152328   0.030272           0.030772                0.0
+WOMD-SafeShift-Hard,\nReal Scenes  0.276667    0.057311   0.135954   0.044277           0.048237                0.0
+WOMD-Normal,\nGOOSE-Gen            0.390833     0.34109   0.155778   0.621768           0.467399           0.113939
+WOMD-Normal,\nCAT-Gen              0.343333    0.149933    0.15217   0.303266           0.071524           0.069029
+WOMD-Normal,\n$\mathbf{SEAL}$-Gen      0.32    0.105887   0.150164   0.183122            0.03992           0.046574
+
+gen_quality
+
+\begin{table*}[hbtp]
+\centering
+\caption{Scenario generation quality; results are averaged over all tested ego
+models. WD measures are Wasserstein distances over adversary behavior; a lower
+value indicates greater realism. A lower Ego Success is better, as this table
+assesses the effectiveness of safety critical scenario generation.}
+\label{tab:gen_quality}
+\resizebox{1.0\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+Eval Scenario Type & Ego Success ($\downarrow$) & Realism WD ($\downarrow$) & Yaw WD ($\downarrow$) & Acc WD ($\downarrow$) & Road WD ($\downarrow$) & Crash WD ($\downarrow$) \\
+\midrule
+WOMD-Normal,
+Real Scenes & 51.1\% & 0.05 & 0.15 & 0.03 & 0.03 & 0.00 \\
+WOMD-SafeShift-Hard,
+Real Scenes & 27.7\% & 0.06 & 0.14 & 0.04 & 0.05 & 0.00 \\
+WOMD-Normal,
+GOOSE-Gen & 39.1\% & 0.34 & 0.16 & 0.62 & 0.47 & 0.11 \\
+WOMD-Normal,
+CAT-Gen & 34.3\% & 0.15 & 0.15 & 0.30 & 0.07 & 0.07 \\
+WOMD-Normal,
+\$\textbackslash mathbf\{SEAL\}\$-Gen & 32.0\% & 0.11 & 0.15 & 0.18 & 0.04 & 0.05 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+
+
+
+
+
+ablation
+
+\begin{table*}[hbtp]
+\centering
+\caption{Ablations on our scenario perturbation method. All models utilize ReSkill.}
+\label{tab:results_ablation}
+\resizebox{0.8\textwidth}{!}{\begin{tabular}{lllll}
+\toprule
+Eval Scenario Type & Training Setting & Success ($\uparrow$) & Crash ($\downarrow$) & Out of Road ($\downarrow$) \\
+\midrule
+\multirow[t]{6}{*}{WOMD-Normal,
+Real Scenes} & \$\textbackslash mathbf\{\textbf{SEAL}\}\$: Adv Skill Prior + Learned Obj & 58.5\% (1.0\%) & 15.0\% (0.0\%) & 26.5\% (1.0\%) \\
+ & Benign Skill Prior + Learned Obj & 49.0\% (0.0\%) & 19.5\% (3.0\%) & 31.5\% (3.0\%) \\
+ & TrajPred Adv + Learned Obj & 51.5\% (1.0\%) & 15.5\% (1.0\%) & 33.5\% (1.0\%) \\
+ & Adv Skill Prior + Heuristic Obj & 52.5\% (3.0\%) & 18.0\% (4.0\%) & 32.0\% (2.0\%) \\
+\cline{2-5}
+ & Benign Skill Prior + Heuristic Obj & 45.0\% (0.0\%) & 18.0\% (4.0\%) & 39.5\% (1.0\%) \\
+ & CAT: TrajPred Adv + Heuristic Obj & 50.0\% (2.0\%) & 15.0\% (6.0\%) & 36.0\% (10.0\%) \\
+\cline{1-5}
+\multirow[t]{6}{*}{WOMD-SafeShift-Hard,
+Real Scenes} & \$\textbackslash mathbf\{\textbf{SEAL}\}\$: Adv Skill Prior + Learned Obj & 38.0\% (2.0\%) & 29.0\% (2.0\%) & 33.0\% (4.0\%) \\
+ & Benign Skill Prior + Learned Obj & 20.0\% (2.0\%) & 44.0\% (4.0\%) & 34.5\% (9.0\%) \\
+ & TrajPred Adv + Learned Obj & 28.5\% (5.0\%) & 37.5\% (11.0\%) & 34.0\% (6.0\%) \\
+ & Adv Skill Prior + Heuristic Obj & 28.0\% (0.0\%) & 36.0\% (2.0\%) & 33.5\% (3.0\%) \\
+\cline{2-5}
+ & Benign Skill Prior + Heuristic Obj & 27.5\% (5.0\%) & 44.0\% (2.0\%) & 27.0\% (0.0\%) \\
+ & CAT: TrajPred Adv + Heuristic Obj & 24.0\% (0.0\%) & 37.5\% (3.0\%) & 36.5\% (5.0\%) \\
+\cline{1-5}
+\multirow[t]{6}{*}{WOMD-Normal,
+GOOSE-Gen} & \$\textbackslash mathbf\{\textbf{SEAL}\}\$: Adv Skill Prior + Learned Obj & 44.0\% (4.0\%) & 27.0\% (0.0\%) & 27.0\% (0.0\%) \\
+ & Benign Skill Prior + Learned Obj & 38.0\% (2.0\%) & 28.0\% (2.0\%) & 31.5\% (5.0\%) \\
+ & TrajPred Adv + Learned Obj & 40.5\% (5.0\%) & 23.0\% (0.0\%) & 34.5\% (1.0\%) \\
+ & Adv Skill Prior + Heuristic Obj & 40.5\% (3.0\%) & 30.5\% (5.0\%) & 26.5\% (3.0\%) \\
+\cline{2-5}
+ & Benign Skill Prior + Heuristic Obj & 37.0\% (0.0\%) & 32.0\% (4.0\%) & 31.0\% (4.0\%) \\
+ & CAT: TrajPred Adv + Heuristic Obj & 34.5\% (3.0\%) & 27.0\% (2.0\%) & 39.0\% (6.0\%) \\
+\cline{1-5}
+\multirow[t]{6}{*}{WOMD-Normal,
+CAT-Gen} & \$\textbackslash mathbf\{\textbf{SEAL}\}\$: Adv Skill Prior + Learned Obj & 42.0\% (2.0\%) & 32.0\% (4.0\%) & 24.0\% (2.0\%) \\
+ & Benign Skill Prior + Learned Obj & 30.0\% (4.0\%) & 36.0\% (10.0\%) & 30.0\% (2.0\%) \\
+ & TrajPred Adv + Learned Obj & 34.5\% (3.0\%) & 31.5\% (7.0\%) & 35.0\% (2.0\%) \\
+ & Adv Skill Prior + Heuristic Obj & 35.5\% (3.0\%) & 36.0\% (4.0\%) & 28.5\% (1.0\%) \\
+\cline{2-5}
+ & Benign Skill Prior + Heuristic Obj & 32.5\% (3.0\%) & 40.5\% (5.0\%) & 27.0\% (8.0\%) \\
+ & CAT: TrajPred Adv + Heuristic Obj & 31.5\% (3.0\%) & 31.5\% (3.0\%) & 40.0\% (0.0\%) \\
+\cline{1-5}
+\multirow[t]{6}{*}{WOMD-Normal,
+\$\textbackslash mathbf\{\textbf{SEAL}\}\$-Gen} & \$\textbackslash mathbf\{\textbf{SEAL}\}\$: Adv Skill Prior + Learned Obj & 38.0\% (4.0\%) & 35.5\% (1.0\%) & 25.0\% (6.0\%) \\
+ & Benign Skill Prior + Learned Obj & 31.0\% (8.0\%) & 39.5\% (3.0\%) & 30.0\% (0.0\%) \\
+ & TrajPred Adv + Learned Obj & 30.0\% (4.0\%) & 35.5\% (1.0\%) & 35.5\% (1.0\%) \\
+ & Adv Skill Prior + Heuristic Obj & 32.5\% (7.0\%) & 37.5\% (11.0\%) & 30.0\% (4.0\%) \\
+\cline{2-5}
+ & Benign Skill Prior + Heuristic Obj & 29.5\% (1.0\%) & 43.5\% (3.0\%) & 28.5\% (1.0\%) \\
+ & CAT: TrajPred Adv + Heuristic Obj & 31.0\% (0.0\%) & 34.0\% (4.0\%) & 36.0\% (2.0\%) \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+
+
+
+

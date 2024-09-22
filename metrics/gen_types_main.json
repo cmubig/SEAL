@@ -1,0 +1,21 @@
+{
+    "_normal_n1_eval": "WOMD-Normal,\nReal Scenes",
+    "_adv_n1_rule_based_eval": "Rule-Based Adv",
+    "_adv_n1_eval": "CAT (N=1)",
+    "_adv_n5_eval": "WOMD-Normal,\nCAT-Gen",
+    "_adv_n5_goose_eval": "WOMD-Normal,\nGOOSE-Gen",
+    "_adv_n5_learned_obj_eval": "CAT Adv N5 + Learned-Obj",
+    "_adv_n1_skill_idm_all_eval": "CAT Adv N1 + Skill",
+    "_adv_n1_skill_idm_all_learned_obj_eval": "CAT Adv N1 + Skill + Learned-Obj",
+    "_adv_n5_skill_idm_all_eval": "CAT Adv N5 + Skill",
+    "_adv_n5_skill_idm_all_learned_obj_eval": "CAT Adv N5 + Skill + Learned-Obj",
+    "_adv_n1_skill_idm_all_adv_prior_eval": "CAT Adv N1 + Skill-Adv",
+    "_adv_n1_skill_idm_all_adv_prior_learned_obj_eval": "SEAL (N=1)",
+    "_adv_n5_skill_idm_all_adv_prior_eval": "CAT Adv N5 + Skill-Adv",
+    "_adv_n5_skill_idm_all_adv_prior_learned_obj_eval": "WOMD-Normal,\n$\\mathbf{SEAL}$-Gen",
+    "_adv_n1_idm_eval": "CAT Adv N1 + IDM",
+    "_adv_n1_idm_learned_obj_eval": "CAT Adv N1 + IDM + Learned-Obj",
+    "_adv_n5_idm_eval": "CAT Adv N5 + IDM",
+    "_adv_n5_idm_learned_obj_eval": "CAT Adv N5 + IDM + Learned-Obj",
+    "_normal_n1_hard_rand_eval": "WOMD-SafeShift-Hard,\nReal Scenes"
+}

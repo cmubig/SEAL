@@ -1,0 +1,145 @@
+Processing base model
+Normal (Real)
+           adv_objective  adv_mode method_type hybrid_adv_mode train_gen_type         arrive adjusted_crash  adv_meta_wd         crash    out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                                 full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+GOOSE                  -     goose     reskill               -            adv  43.5% (13.0%)   34.5% (9.8%)  0.05 (0.00)  22.5% (3.0%)  34.0% (10.0%)    00.0% (0.0%)    05.0% (1.4%)    67.6% (11.1%)  0.00 (0.00)  0.44 (0.02)  0.00 (0.00)  0.22 (0.01)  0.22 (0.03)    0.33 (0.11)  0.56 (0.13)        0.00 (0.00)        0.03 (0.01)  1.26 (0.22)  0.56 (0.05)  3.10 (0.01)  0.02 (0.01)  1.11 (0.38)  0.91 (0.10)  0.16 (0.01)  0.15 (0.01)                                model_cat_reskill_goose_initial*_normal_n1
+No Adv                 -         -     reskill               -         normal   48.0% (2.0%)   29.9% (0.1%)  0.05 (0.01)  20.5% (1.0%)   28.0% (4.0%)    00.0% (0.0%)    05.6% (1.3%)     71.8% (0.8%)  0.00 (0.00)  0.43 (0.02)  0.00 (0.00)  0.22 (0.01)  0.20 (0.01)    0.28 (0.04)  0.52 (0.02)        0.00 (0.00)        0.03 (0.02)  1.36 (0.25)  0.50 (0.06)  3.07 (0.02)  0.03 (0.02)  1.11 (0.03)  0.80 (0.12)  0.15 (0.00)  0.15 (0.00)                                   model_replay_reskill_initial*_normal_n1
+CAT              overlap  densetnt     reskill               -            adv   50.0% (2.0%)   22.5% (3.6%)  0.05 (0.00)  15.0% (6.0%)  36.0% (10.0%)    00.0% (0.0%)    05.3% (1.0%)     69.1% (1.5%)  0.00 (0.00)  0.36 (0.04)  0.00 (0.00)  0.18 (0.02)  0.15 (0.06)    0.36 (0.10)  0.50 (0.02)        0.00 (0.00)        0.03 (0.01)  1.13 (0.03)  0.50 (0.12)  3.10 (0.03)  0.03 (0.00)  0.90 (0.07)  1.12 (0.26)  0.15 (0.01)  0.15 (0.01)                               model_cat_reskill_shared_initial*_normal_n1
+SEAL             learned  densetnt     reskill  skill-advprior            adv   58.5% (1.0%)   21.5% (1.8%)  0.05 (0.00)  15.0% (0.0%)   26.5% (1.0%)    00.0% (0.0%)    04.9% (1.1%)     76.9% (1.5%)  0.00 (0.00)  0.38 (0.00)  0.00 (0.00)  0.19 (0.00)  0.15 (0.00)    0.26 (0.01)  0.42 (0.02)        0.00 (0.00)        0.03 (0.01)  1.71 (0.16)  0.56 (0.11)  3.11 (0.03)  0.02 (0.01)  1.18 (0.02)  0.61 (0.12)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_normal_n1
+None (GT)              -         -      replay               -              -  100.0% (0.0%)   00.0% (0.0%)  0.00 (0.00)  00.0% (0.0%)   00.0% (0.0%)    00.0% (0.0%)    08.3% (0.0%)     95.8% (0.0%)  0.00 (0.00)  0.31 (0.00)  0.00 (0.00)  0.15 (0.00)  0.00 (0.00)    0.00 (0.00)  0.00 (0.00)        0.00 (0.00)        0.00 (0.00)  0.00 (0.00)  0.00 (0.00)  0.00 (0.00)  0.00 (0.00)  0.00 (0.00)  0.00 (0.00)  0.00 (0.00)  0.00 (0.00)                                                      ego_replay_normal_n1
+
+Normal (CAT-Gen)
+           adv_objective  adv_mode method_type hybrid_adv_mode train_gen_type         arrive adjusted_crash  adv_meta_wd         crash   out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                              full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+None (GT)              -         -      replay               -              -   18.0% (0.0%)   82.0% (0.0%)  0.14 (0.00)  82.0% (0.0%)  00.0% (0.0%)    07.9% (0.0%)    18.6% (0.0%)     65.7% (0.0%)  0.86 (0.00)  0.88 (0.00)  0.00 (0.00)  0.44 (0.00)  0.82 (0.00)    0.00 (0.00)  0.82 (0.00)        0.07 (0.00)        0.10 (0.00)  0.30 (0.00)  0.72 (0.00)  0.04 (0.00)  0.38 (0.00)  1.67 (0.00)  0.88 (0.00)  0.01 (0.00)  0.01 (0.00)                                                      ego_replay_adv_n5
+GOOSE                  -     goose     reskill               -            adv  25.0% (10.0%)   65.6% (8.2%)  0.13 (0.01)  47.0% (2.0%)  31.0% (4.0%)    07.7% (0.2%)    13.8% (1.5%)     58.9% (8.6%)  0.94 (0.01)  0.62 (0.00)  0.89 (0.03)  0.75 (0.01)  0.47 (0.02)    0.30 (0.05)  0.75 (0.10)        0.07 (0.00)        0.05 (0.01)  1.17 (0.26)  0.52 (0.07)  3.09 (0.00)  0.25 (0.01)  1.44 (0.25)  0.63 (0.09)  0.16 (0.01)  0.15 (0.01)                                model_cat_reskill_goose_initial*_adv_n5
+No Adv                 -         -     reskill               -         normal   31.5% (1.0%)   59.4% (0.3%)  0.14 (0.01)  46.0% (2.0%)  21.5% (1.0%)    06.3% (1.1%)    16.6% (0.9%)     64.3% (1.1%)  0.87 (0.00)  0.64 (0.01)  0.90 (0.01)  0.77 (0.01)  0.46 (0.02)    0.21 (0.01)  0.68 (0.01)        0.05 (0.01)        0.08 (0.01)  1.26 (0.53)  0.64 (0.01)  3.09 (0.01)  0.28 (0.02)  1.47 (0.01)  0.65 (0.05)  0.15 (0.01)  0.15 (0.01)                                   model_replay_reskill_initial*_adv_n5
+CAT              overlap  densetnt     reskill               -            adv   31.5% (3.0%)   46.7% (6.6%)  0.15 (0.01)  31.5% (3.0%)  40.0% (0.0%)    06.3% (1.9%)    14.9% (2.5%)     61.9% (3.1%)  0.87 (0.00)  0.53 (0.01)  0.89 (0.02)  0.71 (0.00)  0.31 (0.03)    0.40 (0.00)  0.68 (0.03)        0.06 (0.02)        0.06 (0.03)  1.04 (0.14)  0.56 (0.08)  3.05 (0.01)  0.32 (0.04)  1.22 (0.03)  0.86 (0.17)  0.15 (0.01)  0.15 (0.01)                               model_cat_reskill_shared_initial*_adv_n5
+SEAL             learned  densetnt     reskill  skill-advprior            adv   42.0% (2.0%)   45.8% (3.3%)  0.15 (0.01)  32.0% (4.0%)  24.0% (2.0%)    08.2% (1.2%)    14.9% (1.7%)     69.5% (0.1%)  0.87 (0.00)  0.55 (0.03)  0.89 (0.05)  0.72 (0.04)  0.32 (0.04)    0.24 (0.02)  0.58 (0.02)        0.07 (0.01)        0.06 (0.01)  1.54 (0.07)  0.29 (0.03)  3.08 (0.02)  0.30 (0.05)  1.31 (0.25)  0.74 (0.05)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_adv_n5
+
+Normal (GOOSE-Gen)
+           adv_objective  adv_mode method_type hybrid_adv_mode train_gen_type        arrive adjusted_crash  adv_meta_wd         crash    out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                                    full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+CAT              overlap  densetnt     reskill               -            adv  34.5% (3.0%)   42.9% (1.6%)  0.33 (0.01)  27.0% (2.0%)   39.0% (6.0%)    10.0% (0.6%)    53.9% (1.4%)     62.6% (1.1%)  0.00 (0.00)  0.44 (0.01)  0.91 (0.00)  0.67 (0.01)  0.27 (0.02)    0.39 (0.06)  0.65 (0.03)        0.09 (0.01)        0.45 (0.01)  1.02 (0.04)  2.36 (0.06)  3.12 (0.02)  0.59 (0.01)  1.49 (0.07)  1.99 (0.31)  0.16 (0.00)  0.16 (0.01)                               model_cat_reskill_shared_initial*_adv_n5_goose
+GOOSE                  -     goose     reskill               -            adv  36.5% (7.0%)   48.5% (1.7%)  0.35 (0.02)  34.5% (9.0%)  29.5% (17.0%)    12.2% (3.2%)    53.7% (1.2%)     62.1% (2.9%)  0.00 (0.00)  0.50 (0.03)  0.89 (0.02)  0.69 (0.03)  0.34 (0.09)    0.29 (0.17)  0.63 (0.07)        0.11 (0.03)        0.45 (0.01)  1.14 (0.01)  2.35 (0.46)  3.09 (0.01)  0.64 (0.02)  1.47 (0.25)  2.19 (0.12)  0.16 (0.01)  0.15 (0.00)                                model_cat_reskill_goose_initial*_adv_n5_goose
+No Adv                 -         -     reskill               -         normal  41.0% (6.0%)   47.5% (2.2%)  0.34 (0.02)  37.0% (2.0%)   23.0% (4.0%)    10.1% (0.1%)    55.0% (4.2%)     65.8% (1.3%)  0.00 (0.00)  0.53 (0.00)  0.89 (0.01)  0.71 (0.00)  0.37 (0.02)    0.23 (0.04)  0.59 (0.06)        0.10 (0.00)        0.46 (0.05)  1.18 (0.24)  2.12 (0.05)  3.04 (0.02)  0.64 (0.06)  1.75 (0.03)  1.61 (0.03)  0.15 (0.00)  0.15 (0.00)                                   model_replay_reskill_initial*_adv_n5_goose
+SEAL             learned  densetnt     reskill  skill-advprior            adv  44.0% (4.0%)   39.7% (5.5%)  0.35 (0.00)  27.0% (0.0%)   27.0% (0.0%)    13.0% (3.2%)    59.5% (0.2%)     67.9% (4.8%)  0.00 (0.00)  0.46 (0.01)  0.90 (0.03)  0.68 (0.03)  0.27 (0.00)    0.27 (0.00)  0.56 (0.04)        0.12 (0.03)        0.51 (0.00)  1.60 (0.02)  2.39 (0.05)  3.10 (0.03)  0.63 (0.02)  1.63 (0.42)  1.70 (0.03)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_adv_n5_goose
+None (GT)              -         -      replay               -              -  59.0% (0.0%)   41.0% (0.0%)  0.30 (0.00)  41.0% (0.0%)   00.0% (0.0%)    16.1% (0.0%)    61.9% (0.0%)     72.4% (0.0%)  0.00 (0.00)  0.56 (0.00)  0.00 (0.00)  0.28 (0.00)  0.41 (0.00)    0.00 (0.00)  0.41 (0.00)        0.16 (0.00)        0.53 (0.00)  0.49 (0.00)  1.87 (0.00)  0.01 (0.00)  0.50 (0.00)  1.65 (0.00)  3.08 (0.00)  0.01 (0.00)  0.01 (0.00)                                                      ego_replay_adv_n5_goose
+
+Normal (SEAL-Gen)
+           adv_objective  adv_mode method_type hybrid_adv_mode train_gen_type        arrive adjusted_crash  adv_meta_wd         crash   out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd  adv_dist_wd       yaw_wd   adv_yaw_wd                                                                                                  full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+GOOSE                  -     goose     reskill               -            adv  26.0% (8.0%)   64.1% (7.1%)  0.10 (0.02)  46.0% (0.0%)  27.0% (6.0%)    06.3% (0.0%)    13.6% (0.3%)     58.2% (9.0%)  2.01 (0.02)  0.61 (0.02)  0.89 (0.02)  0.75 (0.02)  0.46 (0.00)    0.27 (0.06)  0.74 (0.08)        0.06 (0.00)        0.05 (0.00)  1.22 (0.27)  0.51 (0.07)  3.09 (0.03)  0.13 (0.03)  1.17 (0.11)  0.69 (0.15)  0.15 (0.01)  0.15 (0.01)                                model_cat_reskill_goose_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+CAT              overlap  densetnt     reskill               -            adv  31.0% (0.0%)   51.1% (0.5%)  0.10 (0.00)  34.0% (4.0%)  36.0% (2.0%)    05.0% (1.7%)    13.5% (0.7%)     61.3% (1.9%)  1.60 (0.01)  0.54 (0.00)  0.88 (0.02)  0.71 (0.01)  0.34 (0.04)    0.36 (0.02)  0.69 (0.00)        0.04 (0.01)        0.05 (0.00)  1.03 (0.01)  0.56 (0.03)  3.08 (0.04)  0.16 (0.00)  1.16 (0.18)  0.76 (0.49)  0.15 (0.00)  0.15 (0.00)                               model_cat_reskill_shared_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+None (GT)              -         -      replay               -              -  32.0% (0.0%)   68.0% (0.0%)  0.09 (0.00)  68.0% (0.0%)  00.0% (0.0%)    05.7% (0.0%)    14.8% (0.0%)     71.6% (0.0%)  1.56 (0.00)  0.80 (0.00)  0.00 (0.00)  0.40 (0.00)  0.68 (0.00)    0.00 (0.00)  0.68 (0.00)        0.05 (0.00)        0.06 (0.00)  0.31 (0.00)  0.59 (0.00)  0.04 (0.00)  0.22 (0.00)  1.74 (0.00)  0.93 (0.00)  0.01 (0.00)  0.01 (0.00)                                                      ego_replay_adv_n5_skill_idm_all_adv_prior_learned_obj
+No Adv                 -         -     reskill               -         normal  32.5% (3.0%)   60.3% (4.6%)  0.10 (0.00)  49.5% (5.0%)  21.0% (4.0%)    05.4% (2.1%)    14.5% (0.9%)     64.8% (0.0%)  1.47 (0.00)  0.64 (0.00)  0.89 (0.00)  0.77 (0.01)  0.49 (0.05)    0.21 (0.04)  0.67 (0.03)        0.05 (0.02)        0.06 (0.00)  1.27 (0.36)  0.49 (0.06)  3.06 (0.03)  0.14 (0.01)  1.12 (0.10)  0.79 (0.17)  0.15 (0.00)  0.15 (0.00)                                   model_replay_reskill_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+SEAL             learned  densetnt     reskill  skill-advprior            adv  38.0% (4.0%)   49.4% (1.3%)  0.09 (0.00)  35.5% (1.0%)  25.0% (6.0%)    03.9% (0.3%)    10.7% (1.2%)     67.4% (2.1%)  1.60 (0.03)  0.55 (0.01)  0.89 (0.04)  0.72 (0.02)  0.35 (0.01)    0.25 (0.06)  0.62 (0.04)        0.03 (0.01)        0.02 (0.01)  1.67 (0.07)  0.43 (0.08)  3.10 (0.01)  0.13 (0.02)  1.22 (0.01)  0.75 (0.34)  0.15 (0.01)  0.15 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_adv_n5_skill_idm_all_adv_prior_learned_obj
+
+Hard (Real)
+           adv_objective  adv_mode method_type hybrid_adv_mode train_gen_type        arrive adjusted_crash  adv_meta_wd         crash   out_of_road adv_other_crash adv_out_of_road route_completion     gen_time     sc_score   diff_score   mean_score     crash_wd out_of_road_wd    arrive_wd adv_other_crash_wd adv_out_of_road_wd     speed_wd adv_speed_wd       acc_wd   adv_acc_wd      dist_wd   adv_dist_wd       yaw_wd   adv_yaw_wd                                                                           full_name
+ego_method                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+GOOSE                  -     goose     reskill               -            adv  19.0% (4.0%)   68.8% (7.6%)  0.06 (0.00)  42.0% (6.0%)  36.0% (4.0%)    00.0% (0.0%)    03.1% (0.1%)     40.2% (0.8%)  0.00 (0.00)  0.62 (0.04)  0.00 (0.00)  0.31 (0.02)  0.42 (0.06)    0.36 (0.04)  0.81 (0.04)        0.00 (0.00)        0.05 (0.00)  1.72 (0.24)  1.33 (0.03)  2.89 (0.01)  0.05 (0.00)  8.74 (0.18)  13.22 (0.04)  0.14 (0.00)  0.13 (0.01)                                model_cat_reskill_goose_initial*_normal_n1_hard_rand
+CAT              overlap  densetnt     reskill               -            adv  24.0% (0.0%)   61.8% (3.6%)  0.06 (0.00)  37.5% (3.0%)  36.5% (5.0%)    00.0% (0.0%)    04.3% (0.1%)     44.2% (2.7%)  0.00 (0.00)  0.60 (0.01)  0.00 (0.00)  0.30 (0.01)  0.37 (0.03)    0.36 (0.05)  0.76 (0.00)        0.00 (0.00)        0.04 (0.00)  1.73 (0.07)  1.24 (0.27)  2.89 (0.04)  0.05 (0.00)  8.99 (0.15)  13.23 (0.00)  0.15 (0.00)  0.14 (0.00)                               model_cat_reskill_shared_initial*_normal_n1_hard_rand
+No Adv                 -         -     reskill               -         normal  28.5% (5.0%)   56.5% (8.3%)  0.06 (0.01)  37.5% (5.0%)  33.0% (2.0%)    00.0% (0.0%)    03.4% (0.2%)     52.6% (6.1%)  0.00 (0.00)  0.61 (0.02)  0.00 (0.00)  0.31 (0.01)  0.37 (0.05)    0.33 (0.02)  0.71 (0.05)        0.00 (0.00)        0.05 (0.00)  1.23 (0.34)  0.90 (0.08)  2.94 (0.02)  0.04 (0.01)  8.73 (0.07)  13.06 (0.19)  0.14 (0.01)  0.13 (0.01)                                   model_replay_reskill_initial*_normal_n1_hard_rand
+SEAL             learned  densetnt     reskill  skill-advprior            adv  38.0% (2.0%)   43.3% (0.4%)  0.06 (0.01)  29.0% (2.0%)  33.0% (4.0%)    00.0% (0.0%)    03.2% (0.4%)     54.8% (2.4%)  0.00 (0.00)  0.55 (0.04)  0.00 (0.00)  0.28 (0.02)  0.29 (0.02)    0.33 (0.04)  0.62 (0.02)        0.00 (0.00)        0.05 (0.01)  1.13 (0.28)  0.93 (0.27)  2.97 (0.01)  0.04 (0.00)  8.23 (0.01)  13.03 (0.29)  0.14 (0.01)  0.13 (0.01)  model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*_normal_n1_hard_rand
+None (GT)              -         -      replay               -              -  97.0% (0.0%)   01.0% (0.0%)  0.03 (0.00)  01.0% (0.0%)  02.0% (0.0%)    00.0% (0.0%)    06.7% (0.0%)     94.6% (0.0%)  0.00 (0.00)  0.45 (0.00)  0.00 (0.00)  0.23 (0.00)  0.01 (0.00)    0.02 (0.00)  0.03 (0.00)        0.00 (0.00)        0.02 (0.00)  0.69 (0.00)  0.84 (0.00)  1.26 (0.00)  0.05 (0.00)  8.45 (0.00)  12.68 (0.00)  0.04 (0.00)  0.04 (0.00)                                                      ego_replay_normal_n1_hard_rand
+
+                                                               arrive  crash out_of_road
+model_cat_reskill_goose_initial*                                  0.3  0.384       0.315
+model_cat_reskill_shared_initial*                               0.342   0.29       0.375
+model_replay_reskill_initial*                                   0.363  0.381       0.253
+model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial*  0.441  0.277       0.271
+ego_replay                                                      0.612  0.384       0.004
+
+                   arrive adv_meta_wd adv_yaw_wd adv_acc_wd adv_out_of_road_wd adv_other_crash_wd
+Normal (Real)         0.6    0.042164   0.119914   0.020061           0.026946                0.0
+Normal (GOOSE-Gen)   0.43    0.332115   0.124132   0.601077           0.482036           0.118762
+Normal (CAT-Gen)    0.296    0.141255   0.122513   0.305225           0.073852           0.065868
+Normal (SEAL-Gen)   0.319    0.093805   0.121451   0.156922           0.048902           0.047904
+Hard (Real)         0.413    0.051399   0.116175   0.044353           0.042914                0.0
+
+gen_quality
+
+\begin{table*}[hbtp]
+\centering
+\caption{Scenario generation quality; results are averaged over all tested ego
+models. WD measures are Wasserstein distances over adversary behavior; a lower
+value indicates greater realism. A lower Ego Success is better, as this table
+assesses the effectiveness of safety critical scenario generation.}
+\label{tab:gen_quality}
+\resizebox{1.0\textwidth}{!}{\begin{tabular}{lllllll}
+\toprule
+Eval Scenario Type & Ego Success ($\downarrow$) & Realism WD ($\downarrow$) & Yaw WD ($\downarrow$) & Acc WD ($\downarrow$) & Road WD ($\downarrow$) & Crash WD ($\downarrow$) \\
+\midrule
+Normal (Real) & 60.0\% & 0.04 & 0.12 & 0.02 & 0.03 & 0.00 \\
+Normal (GOOSE-Gen) & 43.0\% & 0.33 & 0.12 & 0.60 & 0.48 & 0.12 \\
+Normal (CAT-Gen) & 29.6\% & 0.14 & 0.12 & 0.31 & 0.07 & 0.07 \\
+Normal (SEAL-Gen) & 31.9\% & 0.09 & 0.12 & 0.16 & 0.05 & 0.05 \\
+Hard (Real) & 41.3\% & 0.05 & 0.12 & 0.04 & 0.04 & 0.00 \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+
+
+
+
+
+main
+
+\begin{table*}[hbtp]
+\centering
+\caption{Results on real and adversarially-perturbed scenes. ``Normal'' are WOMD
+scenes with basic interactive agents labeled by Waymo; ``Hard'' refers to
+SafeShift-mined real scenes in WOMD. Adversarially-perturbed scenes use
+``Normal'' as base scenarios, for both training and eval settings. All trained
+ego models utilize ReSkill.}
+\label{tab:results_main}
+\resizebox{0.8\textwidth}{!}{\begin{tabular}{lllll}
+\toprule
+Eval Scenario Type & Training Setting & Success ($\uparrow$) & Crash ($\downarrow$) & Out of Road ($\downarrow$) \\
+\midrule
+\multirow[t]{5}{*}{Normal (Real)} & None (GT) & 100.0\% (0.0\%) & 00.0\% (0.0\%) & 00.0\% (0.0\%) \\
+\cline{2-5}
+ & No Adv & 48.0\% (2.0\%) & 20.5\% (1.0\%) & 28.0\% (4.0\%) \\
+ & GOOSE & 43.5\% (13.0\%) & 22.5\% (3.0\%) & 34.0\% (10.0\%) \\
+ & CAT & 50.0\% (2.0\%) & 15.0\% (6.0\%) & 36.0\% (10.0\%) \\
+ & \textbf{SEAL} & 58.5\% (1.0\%) & 15.0\% (0.0\%) & 26.5\% (1.0\%) \\
+\cline{1-5}
+\multirow[t]{5}{*}{Normal (GOOSE-Gen)} & None (GT) & 59.0\% (0.0\%) & 41.0\% (0.0\%) & 00.0\% (0.0\%) \\
+\cline{2-5}
+ & No Adv & 41.0\% (6.0\%) & 37.0\% (2.0\%) & 23.0\% (4.0\%) \\
+ & GOOSE & 36.5\% (7.0\%) & 34.5\% (9.0\%) & 29.5\% (17.0\%) \\
+ & CAT & 34.5\% (3.0\%) & 27.0\% (2.0\%) & 39.0\% (6.0\%) \\
+ & \textbf{SEAL} & 44.0\% (4.0\%) & 27.0\% (0.0\%) & 27.0\% (0.0\%) \\
+\cline{1-5}
+\multirow[t]{5}{*}{Normal (CAT-Gen)} & None (GT) & 18.0\% (0.0\%) & 82.0\% (0.0\%) & 00.0\% (0.0\%) \\
+\cline{2-5}
+ & No Adv & 31.5\% (1.0\%) & 46.0\% (2.0\%) & 21.5\% (1.0\%) \\
+ & GOOSE & 25.0\% (10.0\%) & 47.0\% (2.0\%) & 31.0\% (4.0\%) \\
+ & CAT & 31.5\% (3.0\%) & 31.5\% (3.0\%) & 40.0\% (0.0\%) \\
+ & \textbf{SEAL} & 42.0\% (2.0\%) & 32.0\% (4.0\%) & 24.0\% (2.0\%) \\
+\cline{1-5}
+\multirow[t]{5}{*}{Normal (\textbf{SEAL}-Gen)} & None (GT) & 32.0\% (0.0\%) & 68.0\% (0.0\%) & 00.0\% (0.0\%) \\
+\cline{2-5}
+ & No Adv & 32.5\% (3.0\%) & 49.5\% (5.0\%) & 21.0\% (4.0\%) \\
+ & GOOSE & 26.0\% (8.0\%) & 46.0\% (0.0\%) & 27.0\% (6.0\%) \\
+ & CAT & 31.0\% (0.0\%) & 34.0\% (4.0\%) & 36.0\% (2.0\%) \\
+ & \textbf{SEAL} & 38.0\% (4.0\%) & 35.5\% (1.0\%) & 25.0\% (6.0\%) \\
+\cline{1-5}
+\multirow[t]{5}{*}{Hard (Real)} & None (GT) & 97.0\% (0.0\%) & 01.0\% (0.0\%) & 02.0\% (0.0\%) \\
+\cline{2-5}
+ & No Adv & 28.5\% (5.0\%) & 37.5\% (5.0\%) & 33.0\% (2.0\%) \\
+ & GOOSE & 19.0\% (4.0\%) & 42.0\% (6.0\%) & 36.0\% (4.0\%) \\
+ & CAT & 24.0\% (0.0\%) & 37.5\% (3.0\%) & 36.5\% (5.0\%) \\
+ & \textbf{SEAL} & 38.0\% (2.0\%) & 29.0\% (2.0\%) & 33.0\% (4.0\%) \\
+\bottomrule
+\end{tabular}
+}
+\end{table*}
+
+
+
+
+

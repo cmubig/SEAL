@@ -1,0 +1,10 @@
+
+skill_vae:
+    epochs: 100
+    batch_size: 128
+    lr: 0.0001
+    n_actions: 2
+    n_dynamics: 5
+    n_hidden: 256
+    subseq_len: 10
+
