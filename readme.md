@@ -1,6 +1,6 @@
 # SEAL: Towards Safe Autonomous Driving via Skill-Enabled Adversary Learning for Closed-Loop Scenario Generation
 
-[**Webpage**](https://cmubig.github.io/seal/) | [**Code**](https://github.com/cmubig/seal) | [**Paper**](https://arxiv.org/abs/2409.10320)
+[**Webpage**](https://navars.xyz/seal/) | [**Code**](https://github.com/cmubig/seal) | [**Paper**](https://arxiv.org/abs/2409.10320)
 
 
 
