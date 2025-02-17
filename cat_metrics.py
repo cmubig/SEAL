@@ -43,12 +43,12 @@ OUTPUT_ORDER = [
 # Establishes the order for table creation too; order matters to
 ABLATIONS = {
     'model_cat_reskill_skill_idm_all_adv_prior_learned_obj_initial': '$\\mathbf{' + OURS + '}$: Adv Skill Prior + Learned Obj',
-    'model_cat_reskill_skill_idm_all_learned_obj_initial': 'Benign Skill Prior + Learned Obj',
-    'model_cat_reskill_idm_learned_obj_initial': 'IDM Adv + Learned Obj',
-    'model_cat_reskill_learned_obj_initial': 'TrajPred Adv + Learned Obj',
-    'model_cat_reskill_skill_idm_all_adv_prior_initial': 'Adv Skill Prior + Heuristic Obj',
-    'model_cat_reskill_skill_idm_all_initial': 'Benign Skill Prior + Heuristic Obj',
-    'model_cat_reskill_idm_shared_initial': 'IDM Adv + Heuristic Obj',
+    'model_cat_reskill_skill_idm_all_learned_obj_initial': 'Abl1: Benign Skill Prior + Learned Obj',
+    'model_cat_reskill_idm_learned_obj_initial': 'Abl5: IDM Adv + Learned Obj',
+    'model_cat_reskill_learned_obj_initial': 'Abl2: TrajPred Adv + Learned Obj',
+    'model_cat_reskill_skill_idm_all_adv_prior_initial': 'Abl3: Adv Skill Prior + Heuristic Obj',
+    'model_cat_reskill_skill_idm_all_initial': 'Abl4: Benign Skill Prior + Heuristic Obj',
+    'model_cat_reskill_idm_shared_initial': 'Abl6: IDM Adv + Heuristic Obj',
     'model_cat_reskill_shared_initial': 'CAT: TrajPred Adv + Heuristic Obj',
 }
 
@@ -1062,7 +1062,7 @@ if __name__ == '__main__':
             arrive_info = { k: v.apply(lambda x: float(x.split(' ')[0])) for k, v in arrive_info.items() }
         arrive_df = pd.DataFrame(arrive_info).T
         arrive_df = arrive_df[[x for x in ABLATIONS.values() if x in arrive_df.columns]]
-        ax = arrive_df.plot(kind='bar', figsize=(12, 6))
+        ax = arrive_df.plot(kind='bar', figsize=(13, 6.5))
         ax.set_ylabel(y_label)
         plt.xticks(rotation=0, ha='center')
         #plt.legend(title='Scenario', bbox_to_anchor=(1.05, 1), loc='upper left')

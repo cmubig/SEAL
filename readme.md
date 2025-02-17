@@ -14,7 +14,7 @@ on simplistic objectives, resulting in overly-aggressive or
 non-reactive adversarial behaviors. To generate diverse
 adversarial yet realistic scenarios, we propose SEAL, a
 scenario perturbation approach which leverages learned
-scoring functions and adversarial, human-like skills.
+objective functions and adversarial, human-like skills.
 SEAL-perturbed scenarios are more realistic than SOTA
 baselines, leading to improved ego task success across
 real-world, in-distribution, and out-of-distribution
