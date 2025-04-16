@@ -501,6 +501,7 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     assert not args.iqm or not args.median, 'At most one of iqm or median is allowed'
+    assert args.iqm, 'For now, only IQM supported'
     agg_metric = 'median' if args.median else 'iqm' if args.iqm else 'mean'
 
     assert os.path.exists(args.gt_path), 'gt source must exist'
